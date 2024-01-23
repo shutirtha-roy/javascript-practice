@@ -94,7 +94,10 @@ var samin = new Person("Samin", 24);
 console.log(samin.name);
 
 //window binding (this uses JS global window)
+"use strict";
+
 var testPrintName = function() {
+    //console.log(window === this);
     console.log(this.name);
 };
 
