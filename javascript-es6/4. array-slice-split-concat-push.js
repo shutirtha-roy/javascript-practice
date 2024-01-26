@@ -17,3 +17,8 @@ let numbersTwo = [6, 7, 8, 9, 10];
 let numbersThree = [11, 12, 13, 14, 15];
 var result = numbersOne.concat(numbersTwo, numbersThree);
 console.log(result);
+
+//Push
+let numList = [1, 2, 3, 4, 5];
+numList.push(6, 7, 8);
+console.log(numList);
